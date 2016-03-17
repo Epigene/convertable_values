@@ -97,31 +97,6 @@ class Numeric
   alias :km        :kilometers
   alias :kilometer :kilometers
   
-  
-  #### TIME ####
-  
-  def seconds
-    self
-  end
-  alias :second :seconds
-  alias :secs   :seconds
-  alias :sec    :seconds
-  
-  def minutes
-    self * 60.seconds
-  end
-  alias :min    :minutes
-  alias :minute :minutes
-  alias :mins   :minutes
-  
-  def hours
-    self * 60.minutes
-  end
-  alias :hr   :hours
-  alias :hrs  :hours
-  alias :hour :hours
-  
-  
   #### VOLUME #####
   
   def fluid_ounce
