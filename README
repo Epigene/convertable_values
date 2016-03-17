@@ -1,5 +1,7 @@
 = Overview
 
+This fork removes time method support, leaving it to Rails' ActiveSupport
+
 This gem provides 2 things:
 1. a simple unit conversion library, and
 2. a pattern for transparently converting to/from base units.
